@@ -4,10 +4,10 @@ class  EditPage extends StatefulWidget {
   const EditPage({super.key});
 
   @override
-  State<EditPage> createState() => _State();
+  State<EditPage> createState() => _EditPageState();
 }
 
-class _State extends State<> {
+class _EditPageState extends State<EditPage> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();
